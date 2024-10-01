@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #18e2c4;
+    background-color: #189be2;
 }
 
 .container {
@@ -71,7 +71,7 @@ header nav {
 }
 
 .main ul li {
-    background: #f4f4f4;
+    background: #e85e5e;
     margin-bottom: 10px;
     padding: 10px;
     border: #ccc 1px solid;
