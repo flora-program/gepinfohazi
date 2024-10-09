@@ -31,10 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // További adatok...
     ];
 
-    document.getElementById('fetch-user').addEventListener('click', () => {
-        const randomResume = resumes[Math.floor(Math.random() * resumes.length)];
-        displayResume(randomResume);
-    });
+    // Véletlenszerű önéletrajz kiválasztása és megjelenítése az oldal betöltésekor
+    const randomResume = resumes[Math.floor(Math.random() * resumes.length)];
+    displayResume(randomResume);
 
     function displayResume(resume) {
         const userContainer = document.getElementById('user-container');
